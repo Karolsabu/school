@@ -1,0 +1,44 @@
+.admission_school{
+    background-image: url('https://i.postimg.cc/T3fq2WTD/book-with-green-board-background.jpg');
+  
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 150px;
+       display: flex;
+    justify-content: center;
+    filter: brightness(50%);
+ 
+}
+.admission_schoolimage{
+    /* padding: 200px; */
+    font-size: 115px;
+}
+.container__wrapper{
+    margin-top: 90px;
+    margin-bottom: 38px;
+}
+@media screen and (max-width: 600px) {
+    .admission_school{
+        display: flex;
+        justify-content: center;
+    }
+
+.label__style{
+    font-size: 11px;
+}
+.admission_schoolimag{
+   
+    font-size: 75px;
+   
+}
+.admission_schoolimage{
+    /* padding: 200px; */
+    font-size: 55px;
+}
+}
+
+
+
+

@@ -1,0 +1,16 @@
+.footerbg{
+    background-color: rgb(208, 221, 208) ;
+}
+.getIn__touch{
+    padding: 48px;
+}
+@media screen and (max-width: 600px) {
+    .footer__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .getIn__touch{
+        padding: 8px;
+    }
+}

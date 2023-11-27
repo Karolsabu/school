@@ -1,0 +1,99 @@
+.schoolinfo{
+    /* background-image: url('https://i.postimg.cc/nLrm3G4V/young-boy-learning-more-about-chemistry-class.jpg'); */
+    /* background-image: url('https://i.postimg.cc/QM8sQWJ2/boy.png'); */
+    background-image: url('https://i.postimg.cc/HL0ss5Cj/home33.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* margin-top: 85px; */
+}
+.school__headingstyle {
+    font-size: 70px;
+}
+.news{
+    margin-bottom: 100px;
+}
+.welcome{
+    margin-bottom: 100px;
+}
+
+.gallery{
+    background-color: rgb(233, 241, 233)  ;
+    /* margin-bottom: 100px; */
+}
+.sports2{
+    margin-left: 20px;
+}
+.arts1{
+    margin-left: 20px;
+}
+.arts2{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.arts3{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.event1{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.event2{
+    margin-left: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+.event3{
+    margin-left: 60px;
+    margin-bottom: 20px; 
+}
+.image__style{
+    height:50vh
+}
+.school__info-content{
+    width:50%;
+    padding:28px
+}
+
+
+@media only screen and (max-width: 600px) {
+    .image__style{
+        height:30vh
+    }
+    .recent__news-style{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .school__info-content {
+        width: 100%;
+        padding: 0px;
+    }
+    .school__headingstyle {
+        font-size: 40px;
+    }
+    .subheading__style{
+
+        font-size: 15px;
+    }
+
+    .para1__style{
+        font-size: 11px;
+        max-width: 242px;
+    
+    }
+ 
+    .para1__style2{
+        font-size: 11px;
+        max-width: 242px;
+        margin-left: 20px;
+    }
+ 
+  }
